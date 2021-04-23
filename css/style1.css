@@ -1,0 +1,449 @@
+ /* logo */
+.log
+{
+    width: 100px;
+    height: 91px;
+}
+
+.textLogo
+{
+    font-family: 'Courgette', cursive,Sans-serif;
+    font-size: 25px; 
+    color: #00008B;
+}
+.headerA
+{
+    border-bottom: 1px solid #E9ECEF;
+    border-top: 1px solid #E9ECEF;
+    border-radius: 5px;
+
+}
+
+@media(max-width: 750px)
+{
+    .textLogo
+    {
+        font-size: 18px;
+    }
+    .couleurB
+    {
+        font-size: 18px;
+    }
+}
+.red
+{
+    color: red; 
+}
+.couleurB
+{
+    color: #578EEE; 
+}
+/* div 2 */
+.textCenter
+{
+    text-align: center;
+}
+.icon
+{
+    height: auto;
+    width: 35%;        
+}
+.blockIcon p
+{
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;   
+}
+
+.textRight
+{
+    text-align: right;
+}
+.blockIcon input
+{
+    margin: 0;
+    
+}    
+.blockIcon
+{
+    border: 1px solid #ADB5BD;    
+    margin-right: 4%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-top: 5px;
+  
+}
+.blockIcon:hover
+{
+    opacity: 0.7;
+    
+}
+#bat1
+{
+    border: 1px solid blue;
+}
+@media(max-width: 700px)
+{
+    .blockIcon p
+    {
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+/* div 3 */
+.blockIconPiece p
+{
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;   
+}
+
+.blockIconPiece input
+{
+    margin: 0;
+    
+}    
+.blockIconPiece
+{
+    border: 1px solid #ADB5BD;    
+    margin-right: 4%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-top: 5px;
+    
+}
+.blockIconPiece:hover
+{
+    opacity: 0.7;    
+}
+#piece2
+{
+    border: 1px solid blue; 
+}
+@media(max-width: 700px)
+{
+    .blockIconPiece p
+    {
+        font-size: 14px;
+    }
+
+
+}
+
+/* div 4 */
+#prestation1 , #prestation2 , #prestation3 , #prestation7
+{
+    border: 1px solid blue; 
+}
+
+/* div 5 */
+.blockIconEtage p
+{
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;   
+}
+
+.blockIconEtage input
+{
+    margin: 0;
+
+}    
+.blockIconEtage
+{
+    border: 1px solid #ADB5BD;    
+    margin-right: 4%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.blockIconEtage:hover
+{
+    opacity: 0.7;
+    
+}
+
+/* div 6 */
+.blockEtat
+{
+    background-color: #f7f5f4;  
+    border: 1px solid #ADB5BD; 
+    border-radius: 5px;    
+}
+
+.blockEtat input 
+{
+ 
+   margin: 0; 
+}
+
+.blockEtat:hover
+{
+    opacity: 0.7;
+    
+}
+
+.blockMeublees
+{
+    background-color: #f7f5f4;  
+    border: 1px solid #ADB5BD; 
+    border-radius: 5px;    
+}
+
+.blockMeublees input 
+{
+   
+   margin: 0; 
+}
+
+.blockMeublees:hover
+{
+    opacity: 0.7;
+    
+}
+/* div 7 */
+.blockAgglomeration
+{
+    background-color: #f7f5f4;  
+    border: 1px solid #ADB5BD; 
+    border-radius: 5px;    
+}
+
+.blockAgglomeration input 
+{
+   
+   margin: 0; 
+}
+
+.blockAgglomeration:hover
+{
+    opacity: 0.7;    
+}
+#agglomeration1
+{
+    border: 1px solid blue;
+}
+
+.blockPermis
+{
+    background-color: #f7f5f4;  
+    border: 1px solid #ADB5BD; 
+    border-radius: 5px;    
+}
+
+.blockPermis input 
+{
+   margin: 0; 
+  
+}
+
+.blockPermis:hover
+{
+    opacity: 0.7;    
+}
+
+/* div 8 */
+.blockDateTravail
+{
+    background-color: #f7f5f4;  
+    border: 1px solid #ADB5BD; 
+    border-radius: 5px;    
+}
+
+.blockDateTravail input 
+{
+   
+   margin: 0; 
+}
+
+.blockDateTravail:hover
+{
+    opacity: 0.7;    
+}
+
+/* div 9 */
+.covid
+{
+    font-size: 13px;
+    color: #B08D6F; 
+    margin-top: 0px;
+}
+.blockRendez
+{
+    background-color: #f7f5f4;  
+    border: 1px solid #ADB5BD; 
+    border-radius: 5px;    
+}
+
+.blockRendez input 
+{
+   
+   margin: 0; 
+}
+
+.blockRendez:hover
+{
+    opacity: 0.7;    
+}
+#rendez1
+{
+    border: 1px solid blue;
+}
+/* div 10 */
+textarea
+{
+    margin-left: -10px;
+}
+/* div 11 */
+
+.messageFA
+{
+    background-color: orange; 
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.messageFAB
+{
+    background-color: green;  
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.messageFAPb
+{
+    background-color: red; 
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+#time img
+{
+    width: 75px;
+    height: 83px;
+}
+.user
+{
+    margin: 0; 
+}
+.userUatre
+{
+    font-size: 16px;
+}
+
+.p1 p, .p2 p
+{
+   margin-bottom: 2px;
+  
+}
+.p1
+{
+    text-align: right;
+}
+.services:nth-child(odd)
+{
+    background-color: #c1c2c2; 
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    
+}
+.services:nth-child(even)
+{
+    background-color: #e9ecef;  
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    
+}
+
+
+.divImageFileH
+{
+    height: 233px;
+}
+.divImageFileH img
+{
+    border-radius: 5px;
+}
+.imageFileH
+{
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 850px)
+{
+
+    .userUatre
+    {
+        font-size: 14px;
+    }
+    h5 
+    {
+        font-size: 16px;
+    }
+    .p1 p, .p2 p
+    {
+       margin-bottom: 2px;
+       font-size: 14px;
+    }
+    .p1
+    {
+        text-align: left;
+    }
+
+}
+@media(max-width: 900px)
+{
+    .divImageFileH
+    {
+        height: 190px;
+    }
+
+
+}
+@media(max-width: 650px)
+{
+    .divImageFileH
+    {
+        height: 233px;
+    }
+
+
+}
+
+
+#message p
+{
+    margin: 0;    
+    margin-bottom: 2px;
+}
+
+
+@media(max-width: 780px)
+{
+
+
+
+}
+
